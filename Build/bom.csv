@@ -1,0 +1,40 @@
+subsystem,item,manufacturer,part_number,qty,unit,unit_price,currency,source,source_date,url,notes
+Computing & network,Raspberry Pi 4 Model B (4 GB),Raspberry Pi Ltd,,4,pcs,54.40,CHF,invoice,2025-02,,Berry Base; one per camera
+Computing & network,microSD card 32 GB (Ultra A1),SanDisk,,4,pcs,5.95,CHF,invoice,2025-02,,Berry Base
+Computing & network,Ethernet switch 5-port (5 V),TP-Link,LS1005G,1,pcs,10.82,CHF,invoice,2025-01,,Digitec; powered from bottom PCB terminal J10
+Computing & network,CAT6 patch cable 0.15 m,equip,,1,pcs,1.62,CHF,invoice,2025-01,,Digitec; Pi to switch (guide: 1x 10 cm)
+Computing & network,CAT6 patch cable 0.25 m,Digitus,,3,pcs,1.76,CHF,invoice,2025-01,,Digitec; Pi to switch (guide: 3x 20 cm)
+Computing & network,Axial fan 50 x 50 x 10 mm 5 V,,Distrelec 30129665,2,pcs,10.52,CHF,invoice,2025-01,,Distrelec; bottom PCB terminals J_FAN_1/2
+Imaging,Raspberry Pi High Quality Camera (C/CS-mount),Raspberry Pi Ltd,,4,pcs,59.90,CHF,invoice,2025-02,,Berry Base; IR-cut filter removed
+Imaging,25 mm 10 MP telephoto lens (C-mount),,,4,pcs,45.90,CHF,invoice,2025-01,,Pi-Shop.ch
+Illumination PCB,Illumination PCB: fabrication + assembly,JLCPCB,,1,pcs,54.23,USD,invoice,2024-10,,4-layer ~228 x 183 mm; price per board (5 ordered); includes all LCSC parts in electronic/illumination_pcb/production/bom.csv (FT232H; connectors) and the 3x LP5860T taken from the JLCPCB parts stock (bought 2024-09; deducted as prepaid)
+Illumination PCB,Orange LED 590 nm 5 mm (4°),Vishay,TLCY6800,117,pcs,0.188,CHF,invoice,2024-07,,Mouser; hand-soldered
+Illumination PCB,Blue LED 470 nm 5 mm (15°),Cree LED,C503B-BAN-CX0B0462,140,pcs,0.175,CHF,invoice,2024-07,,Mouser; hand-soldered
+Illumination PCB,IR LED 850 nm 5 mm,,Distrelec 30119227 / 30119228,16,pcs,0.30,CHF,invoice,2021-04,,Distrelec; hand-soldered; two 850 nm variants bought at 0.29 / 0.31 CHF
+Illumination PCB,USB cable A to B (1 m),,Distrelec 30402973,1,pcs,1.85,CHF,invoice,2024-10,,Distrelec; Raspberry Pi to FT232H
+Power & distribution,Power supply 5 V 40 A (200 W),Mean Well,UHP-200A-5,1,pcs,53.34,CHF,invoice,2025-01,,Distrelec
+Power & distribution,Power-input PCB (bare),JLCPCB,,1,pcs,6.97,USD,invoice,2024-08,,2-layer ~52 x 36 mm (bottom_v2_input); price per board (5 ordered)
+Power & distribution,IEC C14 inlet with earth,,Distrelec 14321048,1,pcs,2.71,CHF,invoice,2024-02,,Distrelec; mounted on the power-input PCB
+Power & distribution,Bottom distribution PCB (bare),JLCPCB,,1,pcs,3.54,USD,invoice,2024-10,,2-layer ~233 x 154 mm (bottom_v2); price per board (5 ordered)
+Power & distribution,Terminal block 2-pos 5.08 mm,,Distrelec 30127566,7,pcs,0.267,CHF,invoice,2025-01,,Distrelec; 4x Pi; switch; 2x fan
+Power & distribution,Micro-Fit 3.0 2x2 header,Molex,43045-0400 (Distrelec 14402323),1,pcs,0.78,CHF,invoice,2024-10,,Distrelec; bottom PCB J1
+Power & distribution,Micro-Fit 3.0 4-circuit cable (1 m; overmolded),Molex,Distrelec 30122928,1,pcs,12.24,CHF,invoice,2024-10,,Distrelec; bottom PCB to illumination PCB
+Power & distribution,USB-C cable 0.5 m (Pi power lead),Shiverpeaks,,2,pcs,4.26,CHF,invoice,2025-01,,Digitec; each cable cut in two to power 2 Pis
+Structure (3D-printed PETG),Bottom,Prusa,,0.252,kg,22.31,EUR,invoice,2024-11,,bottom.stl; 252 g sliced
+Structure (3D-printed PETG),Middle floor,Prusa,,0.100,kg,22.31,EUR,invoice,2024-11,,middle.stl; 100 g sliced
+Structure (3D-printed PETG),Camera plates (2x A + 2x B),Prusa,,0.0777,kg,22.31,EUR,invoice,2024-11,,Camera_plate_A/B.stl; 77.7 g sliced
+Structure (3D-printed PETG),Leg covers (16),Prusa,,0.0659,kg,22.31,EUR,invoice,2024-11,,leg150.stl; 2 per rod; 65.9 g sliced
+Structure (3D-printed PETG),Microwell holder,Prusa,,0.0351,kg,22.31,EUR,invoice,2024-11,,microwell_holder.stl; 35.1 g sliced
+Structure (3D-printed PETG),"Multi-LED bars, 5 spots (2)",Prusa,,0.0334,kg,22.31,EUR,invoice,2024-11,,multi_led_5.stl; hold the IR LEDs; 33.4 g sliced
+Structure (3D-printed PETG),"Multi-LED bars, 3 spots (2)",Prusa,,0.0330,kg,22.31,EUR,invoice,2024-11,,multi_led_3.stl; hold the IR LEDs; 33.0 g sliced
+Structure (3D-printed PETG),Central pillar,Prusa,,0.0164,kg,22.31,EUR,invoice,2024-11,,central_pillar.stl; ~16 g estimated from STL volume
+Structure (3D-printed PETG),Spacers 6 mm (16),Prusa,,0.0025,kg,22.31,EUR,invoice,2024-11,,spacers.stl (4 per file) printed 4x; ~2.5 g estimated from STL volume
+Mechanical hardware,Threaded rod M5 (29 cm),,Distrelec 14896882,8,pcs,0.8567,CHF,invoice,2022-11,,Distrelec; 1 m bar (2.57 CHF) cut into 3 legs
+Mechanical hardware,Wing nut M5 (steel),,Distrelec 30417556,16,pcs,0.1096,CHF,invoice,2024-11,,Distrelec; pack of 100 (10.96 CHF); 8 on camera plates + 8 on top
+Mechanical hardware,Lock nut M5 (stainless A2),,Distrelec 30071984,4,pcs,0.0535,CHF,invoice,2022-11,,Distrelec; pack of 100 (5.35 CHF)
+Mechanical hardware,Machine screw M3 x 8 mm,,Distrelec 30072004,8,pcs,0.057,CHF,invoice,2024-01,,Distrelec; pack of 100 (5.70 CHF); power supply (4) + power input (4)
+Mechanical hardware,Hex nut M3 (stainless),,Distrelec 30172720,6,pcs,0.0189,CHF,invoice,2024-01,,Distrelec; pack of 100 (1.89 CHF); power supply (4) + C14 inlet (2)
+Mechanical hardware,Self-tapping screw M2 x 10 mm,,,49,pcs,0.0373,CHF,invoice,,,5.60 CHF per 150 (invoice not in folder); camera plates (32) + top (8) + 5 V PCB (4) + switch (2) + central pillar (1) + middle floor (2; assumed)
+Mechanical hardware,Machine screw M2.5 x 12 mm,,Distrelec 30172832,32,pcs,0.0273,CHF,invoice,2022-10,,Distrelec; pack of 100 (2.73 CHF); cameras + Raspberry Pis
+Mechanical hardware,Hex nut M2.5 (stainless),,Distrelec 30172719,32,pcs,0.0181,CHF,invoice,2022-10,,Distrelec; 1.81 CHF per pack (100 assumed; same series as the M3/M5 nuts)
+Mechanical hardware,Washer M3 (stainless),,Distrelec 30072009,4,pcs,0.0385,CHF,invoice,2024-01,,Distrelec; 3.85 CHF per pack (100 assumed); 5 V DC PCB
